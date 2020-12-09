@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "CCLoginComponent, CCRegisterComponent"   # 库简介
   spec.homepage     = "https://github.com/loxue/CCLoginKit"     # 库主页
   spec.authors      = { "CCLoginModule" => "240107867@qq.com" } # 库作者
-  spec.source       = { :git => 'https://github.com/Alamofire/Alamofire.git', :tag => spec.version }   # 指定库的版本源
+  spec.source       = { :git => 'https://github.com/loxue/CCLoginKit.git', :tag => spec.version }   # 指定库的版本源
   # spec.documentation_url = 'https://alamofire.github.io/Alamofire/'  # 库文档
   spec.description  = <<-DESC
     swift 注册登录组件库封装，MVVM组件化实践，使用url方式实现组件间通信
