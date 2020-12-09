@@ -16,14 +16,14 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/Alamofire/Alamofire.git', :tag => spec.version }
   # spec.documentation_url = 'https://alamofire.github.io/Alamofire/'
   spec.description  = <<-DESC
-    swift注册登录组件库封装，包含组件间通信
+    swift 注册登录组件库封装，MVVM组件化实践，使用url方式实现组件间通信
                    DESC
   spec.ios.deployment_target = '10.0'
   # spec.osx.deployment_target = '10.12'
   # spec.tvos.deployment_target = '10.0'
   # spec.watchos.deployment_target = '3.0'
   spec.swift_versions = ['5.1', '5.2', '5.3']
-  spec.source_files  = "Source/*.swift"
+  spec.source_files  = 'CCLoginComponent/CCLoginComponent'   #如果是Objective-C的话需要这样写：'Source/*.{h,m}，swift需要：CCLoginComponent/*.swift'
   spec.exclude_files = "Classes/Exclude"
   spec.pod_target_xcconfig = {
     'SWIFT_INSTALL_OBJC_HEADER' => 'NO'
