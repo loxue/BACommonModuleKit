@@ -28,6 +28,8 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {
     'SWIFT_INSTALL_OBJC_HEADER' => 'NO'
   }
-  spec.frameworks = "Foundation", "UIKit", "RxSwift", "RxCocoa"
+  spec.frameworks = "Foundation", "UIKit"
+  spec.dependency 'RxSwift'     # 依赖第三方库
+  spec.dependency 'RxCocoa'     # 依赖第三方库
 
 end
