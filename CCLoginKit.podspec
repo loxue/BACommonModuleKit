@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = '10.0'
   # spec.watchos.deployment_target = '3.0'
   spec.swift_versions = ['5.1', '5.2', '5.3']
-  spec.source_files  = 'CCLoginComponent/CCLoginComponent'   #如果是Objective-C的话需要这样写：'Source/*.{h,m}，swift需要：CCLoginComponent/*.swift'
+  spec.source_files  = 'CCComponentDemo/CCLoginComponent'   #如果是Objective-C的话需要这样写：'Source/*.{h,m}，swift需要：CCLoginComponent/*.swift'
   spec.exclude_files = "Classes/Exclude"
   spec.pod_target_xcconfig = {
     'SWIFT_INSTALL_OBJC_HEADER' => 'NO'
