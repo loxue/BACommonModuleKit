@@ -28,6 +28,6 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {
     'SWIFT_INSTALL_OBJC_HEADER' => 'NO'
   }
-  spec.frameworks = "Foundation", "UIKit"
+  spec.frameworks = "Foundation", "UIKit", "RxSwift", "RxCocoa"
 
 end
