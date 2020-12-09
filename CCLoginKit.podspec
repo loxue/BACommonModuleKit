@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CCLoginKit"
-  spec.version      = "0.0.1"
-  spec.summary      = "swift login and register module"
+  spec.version      = "1.0.0"
+  spec.summary      = "CCLoginComponent, CCRegisterComponent"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+    swift注册登录组件库封装，包含组件间通信
                    DESC
 
   spec.homepage     = "https://github.com/loxue/CCLoginKit"
