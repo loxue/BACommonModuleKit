@@ -10,6 +10,7 @@
 		5982ADCE82452C021B90D4BD /* Pods_CCComponentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A94202B28AE3865FBC07BE /* Pods_CCComponentDemo.framework */; };
 		760E2463CD551764349AD155 /* Pods_CCComponentDemo_CCComponentDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99075F2A705D30AD71614BB1 /* Pods_CCComponentDemo_CCComponentDemoUITests.framework */; };
 		9E970D15BDD5C051D2907562 /* Pods_CCComponentDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248DAAC3BCE673E97C709858 /* Pods_CCComponentDemoTests.framework */; };
+		D434965825806F2C0019E5AF /* CCLoginModule_oc.m in Sources */ = {isa = PBXBuildFile; fileRef = D434965725806F2C0019E5AF /* CCLoginModule_oc.m */; };
 		D45788EC257DC8FF00DACE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45788EB257DC8FF00DACE18 /* AppDelegate.swift */; };
 		D45788EE257DC8FF00DACE18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45788ED257DC8FF00DACE18 /* SceneDelegate.swift */; };
 		D45788F0257DC8FF00DACE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45788EF257DC8FF00DACE18 /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		D4578903257DC90100DACE18 /* CCComponentDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4578902257DC90100DACE18 /* CCComponentDemoTests.swift */; };
 		D457890E257DC90100DACE18 /* CCComponentDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457890D257DC90100DACE18 /* CCComponentDemoUITests.swift */; };
 		D4578922257DCACA00DACE18 /* CCLoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4578921257DCACA00DACE18 /* CCLoginModule.swift */; };
-		D4578949257E30BA00DACE18 /* CCFirstComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4578948257E30BA00DACE18 /* CCFirstComponent.swift */; };
 		D45789B4257F1A0900DACE18 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45789B0257F1A0900DACE18 /* SignUpVC.swift */; };
 		D45789B5257F1A0900DACE18 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45789B1257F1A0900DACE18 /* SignUpViewModel.swift */; };
 		D45789B6257F1A0900DACE18 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45789B2257F1A0900DACE18 /* SignupService.swift */; };
@@ -54,6 +54,8 @@
 		99075F2A705D30AD71614BB1 /* Pods_CCComponentDemo_CCComponentDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCComponentDemo_CCComponentDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76D40E01D176A5BD6B758A5 /* Pods-CCComponentDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCComponentDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CCComponentDemoTests/Pods-CCComponentDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5882680FB55905E53F7E31 /* Pods-CCComponentDemo-CCComponentDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCComponentDemo-CCComponentDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CCComponentDemo-CCComponentDemoUITests/Pods-CCComponentDemo-CCComponentDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D434965625806F2C0019E5AF /* CCComponentDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCComponentDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		D434965725806F2C0019E5AF /* CCLoginModule_oc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLoginModule_oc.m; sourceTree = "<group>"; };
 		D45788E8257DC8FF00DACE18 /* CCComponentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCComponentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45788EB257DC8FF00DACE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D45788ED257DC8FF00DACE18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +71,6 @@
 		D457890D257DC90100DACE18 /* CCComponentDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCComponentDemoUITests.swift; sourceTree = "<group>"; };
 		D457890F257DC90100DACE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4578921257DCACA00DACE18 /* CCLoginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCLoginModule.swift; sourceTree = "<group>"; };
-		D4578948257E30BA00DACE18 /* CCFirstComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCFirstComponent.swift; sourceTree = "<group>"; };
 		D45789B0257F1A0900DACE18 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		D45789B1257F1A0900DACE18 /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		D45789B2257F1A0900DACE18 /* SignupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
@@ -135,6 +136,15 @@
 			path = CCRegisterComponent;
 			sourceTree = "<group>";
 		};
+		D434965525806EC40019E5AF /* CCLoginComponent_oc */ = {
+			isa = PBXGroup;
+			children = (
+				D434965625806F2C0019E5AF /* CCComponentDemo-Bridging-Header.h */,
+				D434965725806F2C0019E5AF /* CCLoginModule_oc.m */,
+			);
+			path = CCLoginComponent_oc;
+			sourceTree = "<group>";
+		};
 		D45788DF257DC8FF00DACE18 = {
 			isa = PBXGroup;
 			children = (
@@ -160,13 +170,13 @@
 		D45788EA257DC8FF00DACE18 /* CCComponentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D434965525806EC40019E5AF /* CCLoginComponent_oc */,
 				D434962A257F84A80019E5AF /* CCRegisterComponent */,
 				D4578963257E3AF100DACE18 /* CCLoginComponent */,
 				D45788EB257DC8FF00DACE18 /* AppDelegate.swift */,
 				D45788ED257DC8FF00DACE18 /* SceneDelegate.swift */,
 				D45788EF257DC8FF00DACE18 /* ViewController.swift */,
 				D4578921257DCACA00DACE18 /* CCLoginModule.swift */,
-				D4578948257E30BA00DACE18 /* CCFirstComponent.swift */,
 				D45788F1257DC8FF00DACE18 /* Main.storyboard */,
 				D45788F4257DC90100DACE18 /* Assets.xcassets */,
 				D45788F6257DC90100DACE18 /* LaunchScreen.storyboard */,
@@ -277,6 +287,7 @@
 				TargetAttributes = {
 					D45788E7257DC8FF00DACE18 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 					D45788FD257DC90100DACE18 = {
 						CreatedOnToolsVersion = 12.1;
@@ -451,8 +462,8 @@
 				D45789B4257F1A0900DACE18 /* SignUpVC.swift in Sources */,
 				D45789CE257F1D8700DACE18 /* CCAlert.swift in Sources */,
 				D45789B6257F1A0900DACE18 /* SignupService.swift in Sources */,
-				D4578949257E30BA00DACE18 /* CCFirstComponent.swift in Sources */,
 				D45789B5257F1A0900DACE18 /* SignUpViewModel.swift in Sources */,
+				D434965825806F2C0019E5AF /* CCLoginModule_oc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L42GK82Y4G;
 				INFOPLIST_FILE = "$(SRCROOT)/CCComponentDemo/Info.plist";
@@ -636,8 +648,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.TestMVVMDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCComponentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CCComponentDemo/CCLoginComponent_oc/CCComponentDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -649,6 +663,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L42GK82Y4G;
 				INFOPLIST_FILE = "$(SRCROOT)/CCComponentDemo/Info.plist";
@@ -656,8 +671,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.TestMVVMDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCComponentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CCComponentDemo/CCLoginComponent_oc/CCComponentDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
