@@ -9,5 +9,6 @@ target 'BACommonModule-OC' do
 	pod 'AFNetworking'
 	pod 'ReactiveCocoa', '~> 10.1'
   
+  pod 'CCLoginModule', :path => 'CCLoginModule/CCLoginModule'
 
 end
